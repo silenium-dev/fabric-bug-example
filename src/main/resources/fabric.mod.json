@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "bug-example",
+    "version": "1.0-SNAPSHOT",
+    "name": "Test",
+    "description": "Test",
+    "authors": [
+    ],
+    "contact": {},
+    "license": "All rights reserved",
+    "environment": "*",
+    "entrypoints": {
+        "main": "org.example.test.Test"
+    },
+    "mixins": [
+    ],
+    "depends": {
+        "fabricloader": ">=0.4.10",
+        "fabric": "*",
+        "minecraft": "1.18.1"
+    }
+}
